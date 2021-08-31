@@ -1,0 +1,163 @@
+/* hearder */
+.hearder {
+    background: lemonchiffon; 
+
+}
+.logo {
+    text-align: left;
+}
+.logo img {
+    height: 100px;
+}
+.praimary-menu {
+}
+.praimary-menu ul {
+    display: inline-block;
+}
+.praimary-menu ul li {
+    display: inline-block;
+    position: relative;
+}
+.praimary-menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #020202;
+    padding: 0px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 17px 0px;
+}
+.praimary-menu ul li >a:hover {
+    color: rgb(12, 56, 77);
+}
+.praimary-menu ul li a::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    transition: .6s;
+}
+.praimary-menu ul li a:hover::before{
+    border-bottom: 4px solid rgb(0, 174, 255);
+    width: 50%;
+    margin-left: 27px;   
+}
+.praimary-menu ul li ul {
+    position: absolute;
+    top: 131%;
+    left: 0px;
+    width: 212px;
+    text-align: center;
+}
+.praimary-menu ul li ul li {
+    display: block;
+}
+.praimary-menu ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transition: .6s;
+    transform: scale(0);
+    background: lemonchiffon;
+}
+.praimary-menu ul li:hover ul{
+opacity: 1;
+visibility: visible;
+transform: scale(1);
+}
+.praimary-menu ul li ul li a {
+    display: block;
+}
+samp {
+    font-size: 30px;
+    color: #b61607;
+    font-weight: 900;
+}
+.buy {
+    background: rgb(12, 159, 195);
+    display: inline-block;
+    padding: 6px 11px;
+    margin: 13px 4px;
+    border-radius: 9px;
+    box-shadow: 1px 0px -1px 5px #03a9f499;
+}
+.buy a {
+    text-decoration: none;
+    border-radius: 1px;
+  
+    color: #ffff;
+    font-size: 15px;
+}
+.buy:hover{
+ background-color: teal;
+ transition: .5s;
+}
+/* 
+.banar */
+
+
+.banar{
+    background-image: url(https://media.gettyimages.com/photos/cozy-restaurant-for-gathering-with-friends-picture-id1159992039?s=612x612);
+    background-position:center center;
+    background-size: 100%;
+    background-attachment: fixed;
+   padding-bottom: 300px;
+   padding-top: 20px;
+}
+.con{
+    width: 50%;
+    margin: 0px 0px;
+    color: white;
+    
+}
+.con h2{
+    font-weight: 900;
+    font-size: 60px;
+}
+.con p{
+    font-size: 30px;
+    
+}
+.bb2{
+    color: white; 
+}
+.bb2 h2{
+    text-align: left;
+    font-weight: 900;
+    font-size: 60px;
+}
+.bb2 p{
+    font-size: 30px;
+}
+
+/* services */
+.services{
+    background-color: rgb(42, 42, 46);
+    text-align: center;
+}
+.video p{
+    color: ghostwhite;
+}
+.video{
+    margin-top: 20px;
+}
+.contact{
+    text-align: center;
+}
+
+.img2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.cc{
+  background-color: grey;
+  padding: 70px;
+}
+.footer{
+    background: rgb(39, 39, 58);
+    text-align: center;
+    color: mintcream;
+    padding: 50px;
+}
